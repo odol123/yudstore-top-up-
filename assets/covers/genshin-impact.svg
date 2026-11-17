@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 820" role="img" aria-label="Seni cover Genshin Impact">
+  <defs>
+    <linearGradient id="sky" x1="173" y1="-21" x2="486" y2="828" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#071d31"/>
+      <stop offset=".4" stop-color="#0e5261"/>
+      <stop offset=".7" stop-color="#3b9b8e"/>
+      <stop offset="1" stop-color="#d9d5a0"/>
+    </linearGradient>
+    <radialGradient id="moon" cx="0" cy="0" r="1" gradientTransform="translate(441 234) rotate(90) scale(170)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fffce3"/>
+      <stop offset=".38" stop-color="#f3edc1" stop-opacity=".95"/>
+      <stop offset="1" stop-color="#b7ebd5" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="cape" x1="299" y1="365" x2="394" y2="689" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f1f5de"/>
+      <stop offset=".36" stop-color="#b9e4d8"/>
+      <stop offset="1" stop-color="#3d8c8d"/>
+    </linearGradient>
+    <linearGradient id="dress" x1="266" y1="484" x2="384" y2="709" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0e303c"/>
+      <stop offset=".55" stop-color="#1b5b68"/>
+      <stop offset="1" stop-color="#102e39"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="245" y1="427" x2="402" y2="708" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f6e6a4"/>
+      <stop offset="1" stop-color="#bf9542"/>
+    </linearGradient>
+    <linearGradient id="island" x1="99" y1="390" x2="272" y2="547" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#295d59"/>
+      <stop offset="1" stop-color="#112f34"/>
+    </linearGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="7"/></filter>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency=".8" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope=".07"/></feComponentTransfer>
+    </filter>
+    <clipPath id="clip"><rect width="640" height="820" rx="24"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#clip)">
+    <rect width="640" height="820" fill="url(#sky)"/>
+    <rect width="640" height="820" fill="url(#moon)"/>
+    <circle cx="443" cy="233" r="109" fill="#fffde9" opacity=".7"/>
+    <circle cx="443" cy="233" r="126" fill="none" stroke="#f8f0c6" stroke-opacity=".25"/>
+    <circle cx="443" cy="233" r="151" fill="none" stroke="#e5f3d6" stroke-opacity=".1" stroke-dasharray="2 12"/>
+
+    <g opacity=".34" filter="url(#soft)" fill="#e9f5df">
+      <path d="M49 230c31-27 77-22 97 12 29-13 67 1 75 34 37-5 68 18 69 49H-2c-2-36 19-73 51-95Z"/>
+      <path d="M431 121c20-19 51-16 66 6 19-11 44-4 51 16 26-4 48 12 51 34H402c0-23 12-45 29-56Z" opacity=".7"/>
+      <path d="M104 403c27-15 59-11 81 10 18-10 45-5 56 13 26-7 49 8 57 30H60c4-25 20-43 44-53Z" opacity=".6"/>
+    </g>
+
+    <g opacity=".9">
+      <path d="m83 355 126-25 83 83-40 73-131 33-62-75 24-89Z" fill="url(#island)"/>
+      <path d="m77 388 49-42 22 57-31 54-40-69Z" fill="#4b8a72"/>
+      <path d="m115 454 77-18 65 31-51 87-91-6v-94Z" fill="#0d2830"/>
+      <path d="m225 417 51 72-43 46-52-108 44-10Z" fill="#224e49"/>
+      <path d="m101 367 62-23 42 31-70 29-34-37Z" fill="#72a376"/>
+      <path d="M134 399v73M197 386v64" stroke="#83beae" stroke-opacity=".35" stroke-width="2"/>
+      <path d="M177 346c12-24 31-41 56-50" fill="none" stroke="#bad8b0" stroke-width="3"/>
+      <circle cx="135" cy="337" r="4" fill="#f5e4a0" opacity=".7"/>
+      <circle cx="240" cy="350" r="3" fill="#f5e4a0" opacity=".5"/>
+      <path d="M311 529c26-17 55-12 71 9 22-4 41 9 47 30l-133 5c-7-20 1-34 15-44Z" fill="#113d40" opacity=".75"/>
+    </g>
+
+    <g>
+      <path d="M280 456c-36 31-68 80-89 155l37 46 95-32 41-95-40-93-44 19Z" fill="#0b2833"/>
+      <path d="M338 398c47 7 84 45 92 95 5 33-7 69-25 101l-91 4-40-101 64-99Z" fill="url(#cape)" opacity=".9"/>
+      <path d="M300 393c-27 1-50 24-50 53 0 29 21 53 50 54 29 1 54-23 54-52 0-30-24-55-54-55Z" fill="#f0e6cf"/>
+      <path d="M246 434c-14-38 3-82 38-97 30-13 66-4 84 21l-9 42-45 44-47 13-21-23Z" fill="#e8dcc3"/>
+      <path d="M367 347c19-20 23-52 10-78-40 5-71 28-86 61l18 45 58-28Z" fill="#f1e7d1"/>
+      <path d="M370 346c21-30 43-39 66-35 3 34-11 73-43 99l-48-33 25-31Z" fill="#d4e8db"/>
+      <path d="M291 349c1-26 21-46 48-47 27-1 49 19 51 45 1 21-12 42-32 49l-48-7-19-40Z" fill="#f3e8d0"/>
+      <path d="M298 386c9 8 22 12 35 10 17-3 32-14 40-29l-1 58-36 29-35-17-3-51Z" fill="#e1c9ac"/>
+      <path d="M316 367c5 2 11 2 16 0" stroke="#b7825e" stroke-width="2" stroke-linecap="round"/>
+      <path d="m297 354 10-3M341 351l11 2" stroke="#45615a" stroke-width="2" stroke-linecap="round"/>
+      <path d="M308 343c9-6 19-8 29-5" fill="none" stroke="#5e7a71" stroke-width="1.5"/>
+      <path d="M366 315c12 21 12 48-1 69 24-36 38-75 37-117l-9-20c-29 7-54 24-72 48l45 20Z" fill="#bde1d4"/>
+      <path d="M339 208c21 8 38 26 47 48" fill="none" stroke="#f9eab8" stroke-width="2" stroke-opacity=".7"/>
+
+      <path d="M303 471c23-9 48-3 64 15l39 112-44 111-88 1-27-124 56-115Z" fill="url(#dress)"/>
+      <path d="M285 474c20-7 41 0 53 18l19 99-72 88-31-106 31-99Z" fill="#1b5561"/>
+      <path d="M324 477c16 23 22 67 13 114l-24 88 73-9 29-151-35-67-56 25Z" fill="#17454f"/>
+      <path d="M298 620c20 8 42 3 56-13l18 62-77 46-48-31 51-64Z" fill="#dcf0de"/>
+      <path d="M323 602c15 4 30 0 40-11l35 46-32 76-76 30-36-47 69-94Z" fill="#efeee0"/>
+      <path d="m280 471 38 75 52-69" fill="none" stroke="url(#gold)" stroke-width="5"/>
+      <path d="M314 543v91" stroke="#e7ce84" stroke-width="2" opacity=".6"/>
+      <path d="m277 610 65 1-5 19-56 1 0-21Z" fill="#d2b35f"/>
+      <path d="M314 528c-33 32-51 80-49 132l55 40 65-36c5-57-18-108-57-136h-14Z" fill="#174c59" opacity=".45"/>
+      <path d="M244 482c-23 38-29 91-13 142l39 19 17-84-21-80-22 3Z" fill="#d5e9de"/>
+      <path d="M385 474c24 41 29 99 8 149l-40 21-11-89 24-83 19 2Z" fill="#c2e3d9"/>
+      <path d="M265 613c-13 29-15 63-6 97l28 8 11-77-33-28Z" fill="#163d48"/>
+      <path d="M346 621c15 28 19 61 12 96l-28 8-12-79 28-25Z" fill="#143844"/>
+      <path d="m237 481-33 30" stroke="#f7eccb" stroke-width="11" stroke-linecap="round"/>
+      <path d="m396 477 29 34" stroke="#f7eccb" stroke-width="11" stroke-linecap="round"/>
+      <path d="m404 510 11 20" stroke="url(#gold)" stroke-width="4" stroke-linecap="round"/>
+    </g>
+
+    <g opacity=".9">
+      <path d="m514 376 8 25 24 8-24 7-8 25-8-25-24-7 24-8 8-25Z" fill="#f3e6a8" opacity=".65"/>
+      <path d="m65 132 6 17 18 6-18 6-6 18-6-18-18-6 18-6 6-17Z" fill="#f9f0c8" opacity=".55"/>
+      <circle cx="575" cy="467" r="3" fill="#f9eab3"/>
+      <circle cx="183" cy="258" r="2" fill="#f9eab3"/>
+      <circle cx="528" cy="291" r="2" fill="#f9eab3"/>
+      <circle cx="88" cy="553" r="2.5" fill="#b8f1d7"/>
+      <path d="M157 192c25-7 46 6 52 30" fill="none" stroke="#d8efd5" stroke-width="1" opacity=".6"/>
+    </g>
+
+    <g fill="#0c2b30" opacity=".7">
+      <path d="M0 713c90-32 174-27 251 8 73-38 167-48 267-22 46 12 86 31 122 54v67H0v-107Z"/>
+      <path d="M0 764c117-27 210-18 296 20 84-38 196-43 344-14v50H0v-56Z"/>
+    </g>
+    <path d="M64 730c10-27 26-47 48-61M96 694c-1 18 4 33 16 46M87 709c13-3 24 2 33 12" fill="none" stroke="#e0dba7" stroke-width="2" stroke-opacity=".25"/>
+    <rect width="640" height="820" filter="url(#grain)" opacity=".45"/>
+
+    <path d="M54 72h54" stroke="#d3e9c3" stroke-opacity=".65"/>
+    <text x="54" y="98" fill="#e6f3d7" font-family="Arial, sans-serif" font-size="12" letter-spacing="4">HOYOVERSE</text>
+    <text x="586" y="98" fill="#e6f3d7" font-family="Arial, sans-serif" font-size="11" letter-spacing="3" text-anchor="end" opacity=".6">TEYVAT</text>
+    <path d="M54 714h532" stroke="#ffffff" stroke-opacity=".15"/>
+    <text x="54" y="754" fill="#fff9e8" font-family="Arial, sans-serif" font-size="41" font-weight="700" letter-spacing="1">GENSHIN</text>
+    <text x="56" y="781" fill="#d8ecd5" font-family="Arial, sans-serif" font-size="12" letter-spacing="7">IMPACT</text>
+    <path d="M535 721c22 2 36 15 38 39-22-2-35-15-38-39Z" fill="none" stroke="#f6e7b0" stroke-opacity=".45"/>
+    <path d="M544 733c-1 8-1 15 1 23" stroke="#f6e7b0" stroke-opacity=".45"/>
+  </g>
+</svg>

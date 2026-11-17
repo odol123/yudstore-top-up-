@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 820" role="img" aria-label="Seni cover Valorant">
+  <defs>
+    <linearGradient id="bg" x1="80" y1="30" x2="610" y2="800" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#eeeae2"/>
+      <stop offset=".5" stop-color="#d7d2c8"/>
+      <stop offset="1" stop-color="#b6afa3"/>
+    </linearGradient>
+    <linearGradient id="red" x1="484" y1="88" x2="228" y2="644" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ff5d69"/>
+      <stop offset=".58" stop-color="#ff4655"/>
+      <stop offset="1" stop-color="#c42136"/>
+    </linearGradient>
+    <linearGradient id="figure" x1="312" y1="367" x2="385" y2="671" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#16232c"/>
+      <stop offset="1" stop-color="#0c141b"/>
+    </linearGradient>
+    <linearGradient id="knife" x1="399" y1="456" x2="492" y2="288" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#e9e6de"/>
+      <stop offset=".55" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#b7b1a7"/>
+    </linearGradient>
+    <pattern id="dots" width="14" height="14" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.4" fill="#0f1923" opacity=".17"/>
+    </pattern>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency=".7" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope=".08"/></feComponentTransfer>
+    </filter>
+    <clipPath id="clip"><rect width="640" height="820" rx="24"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#clip)">
+    <rect width="640" height="820" fill="url(#bg)"/>
+    <rect width="640" height="820" fill="url(#dots)"/>
+    <path d="M0 0h640v172L0 270V0Z" fill="#0f1923"/>
+    <path d="m640 534-132-71 132-117v188Z" fill="#0f1923" opacity=".9"/>
+    <path d="m0 820 154-219 126 98 142-166 218 177v110H0Z" fill="#0f1923"/>
+    <path d="M-20 763c123-24 217-15 287 39 64-49 142-71 234-58 51 7 100 21 159 48v28H-20v-57Z" fill="#0b1218"/>
+
+    <path d="M488 80c51 93 55 200 22 289-37 101-122 191-243 264l-107-30c142-85 226-189 238-306 8-82-3-154-34-217h124Z" fill="url(#red)"/>
+    <path d="M523 88c22 85 9 174-40 255-39 65-101 125-184 174l-58-18c118-74 195-161 225-257 18-58 20-112 9-154h48Z" fill="#ff4655" opacity=".32"/>
+    <path d="m556 174 84-28v140l-84 88V174Z" fill="#0f1923"/>
+    <path d="M77 265 0 0h235l-82 499L77 265Z" fill="#ff4655" opacity=".08"/>
+
+    <g>
+      <path d="M237 659c-1-63 17-120 47-168l26-34 52 20 30 44c19 43 27 93 25 145l-60 48-120-55Z" fill="#0b1217" opacity=".8"/>
+      <path d="M305 313c-23 1-42 20-45 44-3 27 12 50 38 56 25 6 50-9 57-34 8-25-6-54-31-61-6-2-13-4-19-5Z" fill="#101a21"/>
+      <path d="M274 331c-3-39 20-75 55-86 15-5 30-4 44 2 12-8 18-15 22-24 9 21 11 43 5 64l-17 60-45 33-48-10-16-39Z" fill="#0f1923"/>
+      <path d="M360 230c13-19 14-48 0-68-20 7-35 20-45 38l13 48 32-18Z" fill="#0f1923"/>
+      <path d="M279 378c-33 41-50 103-48 188l64 57 75-21 28-62c9-55-2-121-36-164l-35 21-48-19Z" fill="url(#figure)"/>
+      <path d="M280 377c-26 37-33 97-25 144 8 42 35 75 67 87 34 12 76-3 97-37 18-29 14-67 2-101-10-30-23-58-44-81l-53 20-44-32Z" fill="#101b22"/>
+      <path d="m298 390 41 54 34-54" fill="none" stroke="#ff4655" stroke-width="4"/>
+      <path d="M277 446c31-9 64 1 89 24l-1 86-79-42-9-68Z" fill="#1b2a33"/>
+      <path d="M353 393c31 19 52 52 62 89l-27 88-54 13-13-123 32-67Z" fill="#0d151b"/>
+      <path d="M326 531c15 21 38 29 61 20l-10 42-49 20-26-34 24-48Z" fill="#15232c"/>
+      <path d="M296 588c-18 21-28 43-31 67l51 18 28-45-22-37-26-3Z" fill="#0c1318"/>
+      <path d="M362 578c9 25 16 52 21 79l-49 14-27-46 32-47h23Z" fill="#0c1318"/>
+
+      <path d="M272 409c-41 34-58 82-55 132l32 20c-3-59 10-101 47-133l-24-19Z" fill="#0c141a"/>
+      <path d="M353 407c38 25 62 66 68 121l-33 25c-4-54-24-95-61-120l26-26Z" fill="#0b1218"/>
+      <path d="M327 408c17-5 35-1 48 9" fill="none" stroke="#ff4655" stroke-width="3"/>
+
+      <path d="m399 447 47-163 9 4-27 172-29-13Z" fill="url(#knife)"/>
+      <path d="m448 285 5-47 12 3-6 50-11-6Z" fill="#f8f6f1"/>
+      <path d="m411 448 33 12 13-13-41-17-5 18Z" fill="#0f1923"/>
+      <path d="M420 427c0-29 17-48 49-57l-3 23c-18 8-29 20-33 38l-13-4Z" fill="#ff4655" opacity=".65"/>
+    </g>
+
+    <g>
+      <path d="M73 316c12 0 22 10 22 22s-10 22-22 22-22-10-22-22 10-22 22-22Z" fill="none" stroke="#0f1923" stroke-opacity=".28"/>
+      <path d="M73 327v22M62 338h22" stroke="#0f1923" stroke-opacity=".45"/>
+      <path d="M511 696c37-21 69-28 98-23" fill="none" stroke="#ff4655" stroke-width="6" stroke-linecap="round"/>
+      <path d="M497 715c44-25 84-30 121-19" fill="none" stroke="#ff4655" stroke-width="3" stroke-linecap="round" opacity=".4"/>
+      <path d="m80 200 17 3-2 18-18-3 3-18Z" fill="none" stroke="#0f1923" stroke-opacity=".25"/>
+      <circle cx="580" cy="345" r="2" fill="#0f1923" opacity=".3"/>
+      <circle cx="512" cy="239" r="1.5" fill="#0f1923" opacity=".35"/>
+    </g>
+
+    <g transform="translate(462 590) rotate(-8)">
+      <path d="M0 0h102l-51 141L0 0Z" fill="none" stroke="#f4f0e8" stroke-width="2" opacity=".5"/>
+      <path d="M21 24h60l-30 84-30-84Z" fill="#ff4655" opacity=".78"/>
+    </g>
+
+    <rect width="640" height="820" filter="url(#grain)" opacity=".5"/>
+    <path d="M54 72h54" stroke="#ff5d69" stroke-opacity=".8"/>
+    <text x="54" y="98" fill="#ffbac0" font-family="Arial, sans-serif" font-size="12" letter-spacing="5">RIOT GAMES</text>
+    <text x="586" y="98" fill="#8e969b" font-family="Arial, sans-serif" font-size="11" letter-spacing="3" text-anchor="end">DEFY THE LIMITS</text>
+    <path d="M54 714h532" stroke="#f4f1ea" stroke-opacity=".24"/>
+    <text x="54" y="755" fill="#f4f1ea" font-family="Arial, sans-serif" font-size="50" font-weight="700" letter-spacing="3">VALORANT</text>
+    <text x="58" y="782" fill="#ff6c78" font-family="Arial, sans-serif" font-size="12" letter-spacing="7">AGENTS OF CHANGE</text>
+    <path d="M536 721h40v50h-40z" fill="none" stroke="#f4f1ea" stroke-opacity=".3"/>
+    <path d="m544 734 24 12-24 12v-24Z" fill="#ff4655"/>
+  </g>
+</svg>

@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 820" role="img" aria-label="Seni cover Mobile Legends">
+  <defs>
+    <linearGradient id="bg" x1="110" y1="0" x2="540" y2="820" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0d2746"/>
+      <stop offset=".52" stop-color="#06182d"/>
+      <stop offset="1" stop-color="#030b16"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0" cy="0" r="1" gradientTransform="translate(346 324) rotate(90) scale(270)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1e6b8f" stop-opacity=".9"/>
+      <stop offset=".62" stop-color="#0c3c61" stop-opacity=".3"/>
+      <stop offset="1" stop-color="#051426" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="209" y1="711" x2="447" y2="164" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#a67522"/>
+      <stop offset=".45" stop-color="#ffe7a0"/>
+      <stop offset="1" stop-color="#f7c45b"/>
+    </linearGradient>
+    <linearGradient id="blade" x1="372" y1="470" x2="522" y2="150" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#72dbe3"/>
+      <stop offset=".42" stop-color="#e8ffff"/>
+      <stop offset="1" stop-color="#6de5f2" stop-opacity=".15"/>
+    </linearGradient>
+    <linearGradient id="cape" x1="220" y1="366" x2="445" y2="690" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0c3f58"/>
+      <stop offset="1" stop-color="#061823"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency=".8" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope=".08"/></feComponentTransfer>
+    </filter>
+    <clipPath id="clip"><rect width="640" height="820" rx="24"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#clip)">
+    <rect width="640" height="820" fill="url(#bg)"/>
+    <rect width="640" height="820" fill="url(#halo)"/>
+    <circle cx="348" cy="320" r="221" fill="none" stroke="#dcb35d" stroke-opacity=".25" stroke-width="1.5"/>
+    <circle cx="348" cy="320" r="250" fill="none" stroke="#85dedf" stroke-opacity=".1" stroke-width="26"/>
+    <circle cx="348" cy="320" r="197" fill="none" stroke="#ffe4a2" stroke-opacity=".12" stroke-dasharray="2 13" stroke-width="3"/>
+
+    <path d="M-30 606 148 392l108 127L399 308l234 287v225H-30V606Z" fill="#06111e" opacity=".9"/>
+    <path d="m96 598 127-188 99 143 58-80 154 175H96Z" fill="#0a2134"/>
+    <path d="M0 662c97-37 187-37 303-2 144 44 249 34 337-4v164H0V662Z" fill="#04101c"/>
+    <path d="M0 720c117-31 257-41 383-12 103 24 194 18 257-1v113H0V720Z" fill="#020a12"/>
+
+    <g opacity=".8">
+      <path d="m121 231 69-99 40 49-45 167-64-39v-78Z" fill="#6edee4" opacity=".08"/>
+      <path d="m531 464 73-94 22 34-44 192-69-47 18-85Z" fill="#e6c674" opacity=".08"/>
+      <path d="M79 111h2v2h-2zM489 185h3v3h-3zM565 317h2v2h-2zM188 304h2v2h-2zM438 78h2v2h-2z" fill="#f3d792"/>
+      <circle cx="99" cy="184" r="2" fill="#a6edf0"/>
+      <circle cx="530" cy="257" r="2.5" fill="#a6edf0"/>
+      <circle cx="470" cy="117" r="1.5" fill="#f3d792"/>
+      <circle cx="158" cy="369" r="1.5" fill="#a6edf0"/>
+    </g>
+
+    <path d="M312 385c-18 58-19 130-5 270h-95c16-109 21-185 45-246 15-37 32-43 55-24Z" fill="#071b2a" opacity=".9"/>
+    <path d="M212 419c-26 47-44 131-41 226 22 14 48 7 62-12l-5-181 31-66-47 33Z" fill="#0c3347"/>
+    <path d="M401 388c31 51 54 139 55 249-19 23-53 27-69 4l7-197-15-84 22 28Z" fill="#071b2a" opacity=".92"/>
+
+    <path d="M294 331c17-26 45-40 72-31 30 10 49 40 48 76-1 41-22 75-30 119-8 46 3 88-6 132-9 43-51 60-92 47-38-12-59-49-57-91 2-50 25-88 32-136 5-39 12-83 33-116Z" fill="url(#cape)"/>
+    <path d="M263 350c-21 1-43 16-54 41l-17 99 43 23 35-70-7-93Z" fill="#081e2d"/>
+    <path d="M389 356c27 9 46 32 57 64l15 83-37 27-45-96 10-78Z" fill="#0b2c3e"/>
+
+    <path d="M298 383c27-18 64-8 78 18 8 15 9 31 5 48l-31 91-57-8-17-96c-3-21 3-39 22-53Z" fill="#0f3c4d"/>
+    <path d="M299 400c24-16 54-8 67 16l-6 51-52 46-30-57 21-56Z" fill="#071d2a"/>
+    <path d="m280 458 42 31 37-38 12 59-37 96-47-7-19-85 12-56Z" fill="#12384a" opacity=".9"/>
+
+    <path d="M294 247c-10 17-9 39 3 55 12 17 37 22 55 10 20-13 27-40 15-61-10-18-32-28-52-22-9 3-16 9-21 18Z" fill="#061620"/>
+    <path d="M279 235c-12 6-25 19-27 36-2 14 6 27 17 33l9-48 35-34-34 13Z" fill="#061620"/>
+    <path d="M327 203c29-15 63 1 77 29l-6 90-29 9-16-40-25-18-21 28-24-8 3-34c6-26 21-45 41-56Z" fill="#0b2b3c"/>
+    <path d="M314 184c29-17 65-2 77 28 9 23 2 49-15 65-12 12-31 18-48 11-25-10-39-37-31-64 3-16 8-31 17-40Z" fill="#051521"/>
+    <path d="M306 230c-16-19-17-51 1-69 17-17 46-19 65-4 13 10 20 25 20 41l-18-24-36-6-22 22-10 40Z" fill="#0c2e40"/>
+    <path d="M322 257c9 3 19 3 28-1" fill="none" stroke="#c8914b" stroke-width="2" stroke-linecap="round"/>
+    <path d="m356 243 15 3" stroke="#f3cb7e" stroke-width="2" stroke-linecap="round"/>
+
+    <path d="M275 381c-25 19-48 44-64 80l37 26 38-54-11-52Z" fill="#0b3141"/>
+    <path d="M383 384c26 20 49 49 65 84l-42 24-38-69 15-39Z" fill="#0d3545"/>
+    <path d="m316 403 18 115 12-7 9-113-39 5Z" fill="#d6b768" opacity=".65"/>
+    <path d="m357 400 18 104-10 13-18-116 10-1Z" fill="#7bd9df" opacity=".28"/>
+    <path d="M294 508c25 19 54 19 80 2l6 62c-22 18-64 17-86-3l0-61Z" fill="#102e3b" stroke="#dab66b" stroke-opacity=".55"/>
+    <path d="M284 566c23 14 62 18 88 1l16 45-114-1 10-45Z" fill="#09212e"/>
+
+    <g>
+      <path d="M401 456 519 156l17 9-103 314-32-23Z" fill="url(#blade)"/>
+      <path d="m516 162 20-36 7 4-13 41-14-9Z" fill="#efffff"/>
+      <path d="m502 432 39 23" stroke="#f6cf74" stroke-width="12" stroke-linecap="round"/>
+      <path d="m486 392 35 22" stroke="#ffedb3" stroke-width="5" stroke-linecap="round"/>
+      <path d="m392 458 29 19 14-21-42-22 9 24Z" fill="#b68a43"/>
+      <path d="M416 445c20-32 50-49 87-47" fill="none" stroke="#092433" stroke-width="25" stroke-linecap="round"/>
+      <path d="M431 434c19-12 37-19 56-20" fill="none" stroke="#d7ad5d" stroke-opacity=".6" stroke-width="3"/>
+    </g>
+
+    <g filter="url(#glow)" opacity=".7">
+      <path d="M519 159 418 447" stroke="#89f0f4" stroke-width="4"/>
+      <circle cx="391" cy="446" r="26" fill="#e8c36c" opacity=".3"/>
+    </g>
+
+    <g opacity=".9">
+      <path d="m137 284 9 19 20 3-15 14 4 21-18-10-18 10 4-21-15-14 20-3 9-19Z" fill="#d7b25f" opacity=".3"/>
+      <path d="m513 538 6 14 15 2-11 10 3 15-13-7-13 7 3-15-11-10 15-2 6-14Z" fill="#85e3e5" opacity=".4"/>
+      <circle cx="176" cy="466" r="3" fill="#f4d78b"/>
+      <circle cx="453" cy="592" r="2.5" fill="#92edf0"/>
+      <circle cx="298" cy="145" r="2" fill="#f4d78b"/>
+    </g>
+
+    <rect width="640" height="820" filter="url(#grain)" opacity=".5"/>
+    <path d="M54 70h62" stroke="#e5c372" stroke-opacity=".5"/>
+    <text x="54" y="96" fill="#f2d28a" font-family="Arial, sans-serif" font-size="13" letter-spacing="5">MOONTON</text>
+    <text x="586" y="94" fill="#8adce1" font-family="Arial, sans-serif" font-size="11" letter-spacing="3" text-anchor="end">LAND OF DAWN</text>
+    <path d="M54 716h532" stroke="#ffffff" stroke-opacity=".12"/>
+    <text x="54" y="753" fill="#f7fbff" font-family="Arial, sans-serif" font-size="33" font-weight="700" letter-spacing="1">MOBILE LEGENDS</text>
+    <text x="56" y="780" fill="#8fcbd5" font-family="Arial, sans-serif" font-size="12" letter-spacing="7">BANG BANG</text>
+    <path d="M545 731v42M555 731v42M565 731v42M575 731v42M585 731v42M523 733h62M523 754h62M523 776h62" stroke="#ffffff" stroke-opacity=".45" stroke-width="1"/>
+  </g>
+</svg>

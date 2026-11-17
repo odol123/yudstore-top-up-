@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 820" role="img" aria-label="Seni cover Honkai Star Rail">
+  <defs>
+    <linearGradient id="space" x1="46" y1="0" x2="598" y2="820" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#05071b"/>
+      <stop offset=".4" stop-color="#121233"/>
+      <stop offset=".73" stop-color="#3d235d"/>
+      <stop offset="1" stop-color="#090a1c"/>
+    </linearGradient>
+    <radialGradient id="nebula" cx="0" cy="0" r="1" gradientTransform="translate(419 231) rotate(125) scale(400 300)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#9467e9" stop-opacity=".6"/>
+      <stop offset=".46" stop-color="#53348c" stop-opacity=".34"/>
+      <stop offset="1" stop-color="#07091b" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="planet" x1="160" y1="103" x2="390" y2="331" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#c9b4ff"/>
+      <stop offset=".32" stop-color="#795bd1"/>
+      <stop offset=".67" stop-color="#372578"/>
+      <stop offset="1" stop-color="#1a1745"/>
+    </linearGradient>
+    <linearGradient id="train" x1="194" y1="529" x2="479" y2="626" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#262647"/>
+      <stop offset=".48" stop-color="#0d1028"/>
+      <stop offset="1" stop-color="#04050f"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="195" y1="628" x2="518" y2="472" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8f6a2e"/>
+      <stop offset=".5" stop-color="#f5dc99"/>
+      <stop offset="1" stop-color="#c39a49"/>
+    </linearGradient>
+    <linearGradient id="trail" x1="25" y1="635" x2="541" y2="558" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f0d58c" stop-opacity="0"/>
+      <stop offset=".45" stop-color="#f0d58c" stop-opacity=".5"/>
+      <stop offset="1" stop-color="#e7fff7" stop-opacity=".9"/>
+    </linearGradient>
+    <linearGradient id="comet" x1="74" y1="292" x2="262" y2="169" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#e7d7ff"/>
+    </linearGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="9"/></filter>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope=".08"/></feComponentTransfer>
+    </filter>
+    <clipPath id="clip"><rect width="640" height="820" rx="24"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#clip)">
+    <rect width="640" height="820" fill="url(#space)"/>
+    <rect width="640" height="820" fill="url(#nebula)"/>
+
+    <g fill="#ffffff">
+      <circle cx="76" cy="119" r="1.7" opacity=".8"/>
+      <circle cx="162" cy="80" r="1" opacity=".5"/>
+      <circle cx="555" cy="99" r="1.4" opacity=".7"/>
+      <circle cx="584" cy="198" r="1" opacity=".45"/>
+      <circle cx="491" cy="126" r=".9" opacity=".5"/>
+      <circle cx="321" cy="89" r="1.3" opacity=".8"/>
+      <circle cx="219" cy="202" r=".8" opacity=".4"/>
+      <circle cx="541" cy="348" r="1.6" opacity=".7"/>
+      <circle cx="86" cy="340" r="1" opacity=".4"/>
+      <circle cx="583" cy="476" r="1.2" opacity=".55"/>
+      <circle cx="35" cy="514" r=".8" opacity=".45"/>
+      <circle cx="209" cy="318" r=".9" opacity=".5"/>
+      <circle cx="447" cy="413" r="1.1" opacity=".55"/>
+      <circle cx="376" cy="46" r=".8" opacity=".4"/>
+      <circle cx="114" cy="408" r="1.4" opacity=".6"/>
+      <circle cx="512" cy="271" r=".8" opacity=".4"/>
+      <path d="M241 123h1v1h-1zM407 289h1v1h-1zM57 255h1v1h-1zM305 438h1v1h-1zM566 538h1v1h-1z" opacity=".7"/>
+      <path d="m152 153 1.5 4.5 4.5 1.5-4.5 1.5-1.5 4.5-1.5-4.5-4.5-1.5 4.5-1.5 1.5-4.5Z" opacity=".8"/>
+      <path d="m527 294 1 3 3 1-3 1-1 3-1-3-3-1 3-1 1-3Z" opacity=".6"/>
+    </g>
+
+    <g>
+      <ellipse cx="286" cy="216" rx="228" ry="61" transform="rotate(-15 286 216)" fill="none" stroke="#c8acff" stroke-opacity=".22" stroke-width="19"/>
+      <ellipse cx="286" cy="216" rx="204" ry="49" transform="rotate(-15 286 216)" fill="none" stroke="#f0d894" stroke-opacity=".35" stroke-width="1.5"/>
+      <path d="M166 131c33-58 98-92 165-83 72 10 129 68 127 141-2 62-42 111-102 133l-23-22c50-23 81-66 82-111 1-63-52-113-114-116-53-3-101 28-119 76l-16-18Z" fill="url(#planet)"/>
+      <path d="M200 86c39-32 95-39 142-19 50 22 81 70 79 120-2 50-33 92-77 111-28 11-60 12-90 1l22-20c23 5 48 2 69-8 40-19 64-60 58-102-6-44-41-80-85-90-42-10-87 3-115 35l-3-28Z" fill="#bda2ff" opacity=".18"/>
+      <circle cx="282" cy="176" r="10" fill="#f3dda4" opacity=".2"/>
+      <circle cx="317" cy="143" r="16" fill="#f3dda4" opacity=".12"/>
+      <circle cx="242" cy="228" r="22" fill="#e9cdf5" opacity=".08"/>
+    </g>
+
+    <path d="M-20 320c94 21 172 8 239-41 54-40 123-47 193-17 56 24 117 22 248-13" fill="none" stroke="url(#comet)" stroke-width="3" opacity=".35"/>
+    <path d="m249 144 49-41 10 12-53 39-6-10Z" fill="url(#comet)" opacity=".8"/>
+    <path d="M237 153c47-15 91-33 137-58" fill="none" stroke="#f0e2ff" stroke-opacity=".4" stroke-width="1"/>
+
+    <g opacity=".55" filter="url(#glow)">
+      <path d="M0 654c144-47 290-53 444-16 84 20 153 18 222-7" fill="none" stroke="#b490ff" stroke-width="12"/>
+    </g>
+    <path d="M-30 661c153-39 303-32 449 21 76 27 143 32 197 11" fill="none" stroke="url(#trail)" stroke-width="2.5"/>
+
+    <g>
+      <path d="M170 568c80-31 177-39 279-21l95 35-55 76-289-8-89-34 59-48Z" fill="url(#train)"/>
+      <path d="M184 575c75-23 153-30 234-19l-7 57-235-1 8-37Z" fill="#111430"/>
+      <path d="M441 551c36 3 70 11 103 25l40 18-28 44-105-24-10-63Z" fill="#080a1d"/>
+      <path d="M184 575c70-20 150-27 238-17" fill="none" stroke="url(#gold)" stroke-width="3"/>
+      <path d="M175 611c89-1 170 2 244 9l-11 27-243-8 10-28Z" fill="#0a0c20"/>
+      <path d="M252 569h77l5 54h-82v-54Z" fill="#2a2250" stroke="#e8cd88" stroke-opacity=".45"/>
+      <path d="M258 575h64v31h-64z" fill="#d7c07c" opacity=".28"/>
+      <path d="M265 581h18v19h-18zM291 581h24v19h-24z" fill="#f5e3ad" opacity=".68"/>
+      <path d="M353 565h54l9 47-65-1 2-46Z" fill="#1b1a3e"/>
+      <path d="M360 571h41l6 29-49 1 2-30Z" fill="#c6a75f" opacity=".22"/>
+      <path d="M502 582c32 10 55 22 68 36-19 14-42 22-68 23l0-59Z" fill="#25204b"/>
+      <path d="M510 596c16 5 30 11 40 18-13 6-27 10-40 11v-29Z" fill="#f4dfa0" opacity=".8"/>
+      <circle cx="504" cy="630" r="29" fill="#0a0c1d" stroke="#cea961" stroke-opacity=".65" stroke-width="2"/>
+      <circle cx="504" cy="630" r="13" fill="#1e1b3c" stroke="#f2d68e" stroke-width="2"/>
+      <circle cx="504" cy="630" r="4" fill="#f6e5b0"/>
+      <circle cx="387" cy="645" r="24" fill="#070919" stroke="#b79858" stroke-opacity=".5" stroke-width="2"/>
+      <circle cx="387" cy="645" r="10" fill="#1a1836" stroke="#e4ca85" stroke-width="2"/>
+      <path d="M106 594c-24 9-42 22-55 38l52 28 41-62-38-4Z" fill="#14162f"/>
+      <path d="M78 618c23-9 45-5 65 12" fill="none" stroke="#dac381" stroke-width="2" stroke-opacity=".5"/>
+      <path d="M590 579c20 6 37 17 51 32" fill="none" stroke="#f2dfaa" stroke-width="3" stroke-linecap="round" opacity=".6"/>
+      <path d="M597 616c18 5 32 13 43 25" fill="none" stroke="#f2dfaa" stroke-width="1.5" stroke-linecap="round" opacity=".35"/>
+    </g>
+
+    <g opacity=".9">
+      <path d="M140 490c-4 25 8 49 30 59 23 10 51 0 62-22 12-23 2-52-21-63-24-12-53 1-64 23l-7 3Z" fill="#0b0e21" opacity=".75"/>
+      <path d="M159 516c12-29 44-39 68-20" fill="none" stroke="#c39adf" stroke-width="1.5" stroke-opacity=".3"/>
+      <path d="m549 450 6 18 18 6-18 6-6 18-6-18-18-6 18-6 6-18Z" fill="#eadba4" opacity=".55"/>
+      <path d="M43 572c50-15 88-10 117 17" fill="none" stroke="#e4ca89" stroke-width="1" stroke-opacity=".26"/>
+      <circle cx="598" cy="536" r="18" fill="#e8d49b" opacity=".2"/>
+    </g>
+
+    <g opacity=".22" transform="translate(0 30)">
+      <path d="M82 715h480M72 731h500M62 747h520M52 763h540" stroke="#f4e2ac" stroke-width="1"/>
+    </g>
+    <rect width="640" height="820" filter="url(#grain)" opacity=".45"/>
+
+    <path d="M54 72h54" stroke="#e5cf97" stroke-opacity=".6"/>
+    <text x="54" y="98" fill="#e8d8b0" font-family="Arial, sans-serif" font-size="12" letter-spacing="4">HOYOVERSE</text>
+    <text x="586" y="98" fill="#c7b8e3" font-family="Arial, sans-serif" font-size="11" letter-spacing="3" text-anchor="end" opacity=".7">ASTRAL EXPRESS</text>
+    <path d="M54 714h532" stroke="#ffffff" stroke-opacity=".13"/>
+    <text x="54" y="753" fill="#fbf5e7" font-family="Arial, sans-serif" font-size="40" font-weight="700" letter-spacing="1">HONKAI:</text>
+    <text x="54" y="785" fill="#dcc78f" font-family="Arial, sans-serif" font-size="27" font-weight="700" letter-spacing="5">STAR RAIL</text>
+    <path d="m548 724 13 13-13 13-13-13 13-13Z" fill="none" stroke="#eddcab" stroke-opacity=".4"/>
+    <circle cx="548" cy="737" r="3" fill="#eddcab" opacity=".7"/>
+  </g>
+</svg>

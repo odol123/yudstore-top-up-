@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 820" role="img" aria-label="Seni cover PUBG Mobile">
+  <defs>
+    <linearGradient id="bg" x1="70" y1="0" x2="580" y2="820" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#202518"/>
+      <stop offset=".45" stop-color="#3a341f"/>
+      <stop offset=".74" stop-color="#8d682b"/>
+      <stop offset="1" stop-color="#15140e"/>
+    </linearGradient>
+    <radialGradient id="focus" cx="0" cy="0" r="1" gradientTransform="translate(338 334) rotate(90) scale(300)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#e8b953" stop-opacity=".55"/>
+      <stop offset=".55" stop-color="#76571d" stop-opacity=".24"/>
+      <stop offset="1" stop-color="#16150f" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="helmet" x1="259" y1="282" x2="418" y2="487" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8b8977"/>
+      <stop offset=".24" stop-color="#424437"/>
+      <stop offset=".6" stop-color="#171b14"/>
+      <stop offset="1" stop-color="#070906"/>
+    </linearGradient>
+    <linearGradient id="rim" x1="269" y1="254" x2="427" y2="446" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f2d58f"/>
+      <stop offset=".42" stop-color="#a08143"/>
+      <stop offset="1" stop-color="#4a422b"/>
+    </linearGradient>
+    <linearGradient id="rifle" x1="113" y1="756" x2="171" y2="431" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0c0d0a"/>
+      <stop offset=".5" stop-color="#27281e"/>
+      <stop offset="1" stop-color="#4d4b38"/>
+    </linearGradient>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="8"/></filter>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency=".75" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope=".09"/></feComponentTransfer>
+    </filter>
+    <clipPath id="clip"><rect width="640" height="820" rx="24"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#clip)">
+    <rect width="640" height="820" fill="url(#bg)"/>
+    <rect width="640" height="820" fill="url(#focus)"/>
+
+    <g opacity=".3" stroke="#f0cd7a" fill="none">
+      <circle cx="335" cy="343" r="258" stroke-width="1"/>
+      <circle cx="335" cy="343" r="211" stroke-width="1" stroke-dasharray="3 12"/>
+      <circle cx="335" cy="343" r="153" stroke-width="1" stroke-opacity=".5"/>
+      <path d="M335 31v135M335 518v131M47 343h156M467 343h126" stroke-width="1"/>
+      <path d="M276 284h118v118H276z" stroke-width=".7" stroke-opacity=".5"/>
+    </g>
+
+    <path d="M-20 583c99-57 191-54 281-13 107 49 218 54 399-26v276H-20V583Z" fill="#13150e"/>
+    <path d="M0 687c118-41 234-35 340 0 108 35 202 32 300-10v143H0V687Z" fill="#0b0d09"/>
+    <path d="M0 751c166-29 310-31 433-4 75 16 144 19 207 8v65H0v-69Z" fill="#070805"/>
+
+    <g opacity=".35">
+      <path d="M40 488c37-19 72-23 104-12 26 8 41 24 53 44" fill="none" stroke="#ddb965" stroke-width="22" filter="url(#glow)"/>
+      <path d="M515 547c34-23 61-51 80-88" fill="none" stroke="#e8c06c" stroke-width="17" filter="url(#glow)"/>
+      <path d="m476 149 81-53 47 50-75 112-53-109Z" fill="#2a2616" opacity=".6"/>
+      <path d="M62 227h58v83H62zM499 254l44 3-6 48-43-6 5-45Z" fill="#181a11"/>
+    </g>
+
+    <g>
+      <path d="M250 355c-4-57 30-110 86-130 56-20 119 2 154 50l8 98-59 38-57 73-110-17-22-112Z" fill="#090b08" opacity=".6"/>
+      <path d="M277 265c11-50 52-85 102-85 56 0 100 43 105 98l-12 90-21 95-65 42-72-32-28-105-9-103Z" fill="url(#helmet)"/>
+      <path d="M273 260c10-55 51-93 105-94 55-2 102 37 114 90l-17 64-16-58c-21-33-55-53-93-52-45 0-82 27-101 67l-3 53-14-54 25-16Z" fill="url(#rim)"/>
+      <path d="M276 284c-12 37-15 82-3 129l26 72 56 31 66-31 24-75c7-44-2-84-19-118l-34 22-62-3-54-27Z" fill="#0f120d"/>
+      <path d="M290 295c-3 22-1 45 4 62 14 13 34 22 55 22 28 0 54-12 70-32l3-61c-21 18-44 27-69 27-22 0-44-6-63-18Z" fill="#050603"/>
+      <path d="M289 303c-2 16-1 33 3 48 18 16 41 25 65 23 25-1 49-12 64-30l2-44-24 16-42 19-45-13-23-19Z" fill="#22251b"/>
+      <path d="M303 310c13-7 30-9 44-5 18 4 33 15 45 29l-3 11c-18-11-31-17-48-19-15-2-32 1-44 8l6-24Z" fill="#5a5a44"/>
+      <path d="M349 276c8-26 30-31 48-19" fill="none" stroke="#c0aa6d" stroke-opacity=".35" stroke-width="3"/>
+      <path d="M292 358c24 17 53 21 81 10 18-7 35-20 47-35" fill="none" stroke="#d1b36e" stroke-opacity=".25" stroke-width="2"/>
+      <path d="M350 149v-62M358 150v-52" stroke="#080a06" stroke-width="17" stroke-linecap="round"/>
+      <path d="M301 153c25-18 62-20 94-4" fill="none" stroke="#080a06" stroke-width="8" stroke-linecap="round"/>
+      <path d="M311 474c13 11 29 18 45 18 20 0 37-7 51-19l-13 44-49 21-48-20 14-44Z" fill="#1a1e14"/>
+      <path d="m302 483 54 20 50-21" fill="none" stroke="#7c6738" stroke-width="2" stroke-opacity=".5"/>
+      <path d="M269 476c-23 37-37 86-39 148l64 24 32-119-9-63-48 10Z" fill="#0b0d08"/>
+      <path d="M430 463c23 38 39 91 38 155l-68 23-26-123 10-64 46 9Z" fill="#0a0c08"/>
+    </g>
+
+    <g opacity=".95">
+      <path d="m120 790-17-313 44-9 46 287-73 35Z" fill="url(#rifle)"/>
+      <path d="m139 485-30-58 30-31 21 82-21 7Z" fill="#171911"/>
+      <path d="m119 757 66-17 4 25-65 20-5-28Z" fill="#080a06"/>
+      <path d="M151 561h39v18h-39zM158 622h38v16h-38z" fill="#595742" opacity=".5"/>
+      <path d="m165 513 37-4 47 181-48 12-36-189Z" fill="#24261c" opacity=".8"/>
+    </g>
+
+    <g>
+      <path d="M77 171c15 0 27 12 27 27s-12 27-27 27-27-12-27-27 12-27 27-27Z" fill="none" stroke="#efce84" stroke-opacity=".3"/>
+      <path d="M77 187v22M66 198h22" stroke="#efce84" stroke-opacity=".5"/>
+      <path d="M438 88c23 12 42 30 54 52" fill="none" stroke="#f1d38f" stroke-width="2" stroke-opacity=".35"/>
+      <circle cx="551" cy="171" r="2" fill="#f1d38f"/>
+      <circle cx="482" cy="631" r="2.5" fill="#e7c87f"/>
+      <circle cx="88" cy="434" r="2" fill="#e7c87f"/>
+      <path d="m533 639 7 15 16 2-12 11 4 16-15-8-14 8 3-16-12-11 17-2 6-15Z" fill="#f0ce83" opacity=".35"/>
+    </g>
+
+    <path d="M111 618c26 2 47 13 62 34" fill="none" stroke="#d8b563" stroke-opacity=".2" stroke-width="1"/>
+    <path d="M0 683c105-38 199-30 272 17" fill="none" stroke="#d7b86e" stroke-opacity=".12" stroke-width="2"/>
+    <rect width="640" height="820" filter="url(#grain)" opacity=".55"/>
+
+    <path d="M54 72h54" stroke="#d7b66c" stroke-opacity=".7"/>
+    <text x="54" y="98" fill="#e8cd91" font-family="Arial, sans-serif" font-size="12" letter-spacing="4">LEVEL INFINITE</text>
+    <text x="586" y="98" fill="#e8cd91" font-family="Arial, sans-serif" font-size="11" letter-spacing="3" text-anchor="end" opacity=".65">WINNER WINNER</text>
+    <path d="M54 712h532" stroke="#ffffff" stroke-opacity=".13"/>
+    <text x="54" y="753" fill="#f9f4e6" font-family="Arial, sans-serif" font-size="46" font-weight="700" letter-spacing="2">PUBG</text>
+    <text x="56" y="781" fill="#d9bb74" font-family="Arial, sans-serif" font-size="12" letter-spacing="7">MOBILE</text>
+    <path d="M542 715h32v54h-32z" fill="none" stroke="#f0d68f" stroke-opacity=".35"/>
+    <path d="m550 725 17 17-17 17-9-17 9-17Z" fill="#e8c97f" opacity=".7"/>
+  </g>
+</svg>
