@@ -1,0 +1,561 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#070b11">
+  <meta name="description" content="YUDSTORE — top up game favoritmu dalam hitungan detik. Diamond, UC, VP, Genesis Crystal, dan Robux dengan harga terbaik, pembayaran aman, serta layanan 24/7.">
+  <meta property="og:title" content="YUDSTORE — Top Up Game Secepat Kilat">
+  <meta property="og:description" content="Top up diamond, UC, VP, dan voucher game favoritmu. Proses instan, harga terbaik, aman 24/7.">
+  <meta property="og:type" content="website">
+  <title>YUDSTORE — Top Up Game Secepat Kilat</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles-sections.css">
+  <link rel="stylesheet" href="styles-order.css">
+  <link rel="stylesheet" href="styles-payment.css">
+  <link rel="stylesheet" href="styles-responsive.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Langsung ke konten</a>
+
+  <div class="announcement-bar">
+    <div class="container announcement-inner">
+      <span class="announcement-badge"><svg class="icon" aria-hidden="true"><use href="#icon-bolt"></use></svg> FLASH SALE</span>
+      <p>Diskon <strong>10%</strong> untuk semua game dengan kode <button class="code-link" type="button" data-copy-code="KILAT10">KILAT10</button></p>
+      <span class="announcement-time">Berakhir dalam <strong id="announcementCountdown">--:--:--</strong></span>
+    </div>
+  </div>
+
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <a class="brand" href="#home" aria-label="YUDSTORE, kembali ke beranda">
+        <span class="brand-mark"><svg class="icon" aria-hidden="true"><use href="#icon-bolt"></use></svg></span>
+        <span class="brand-word">YUD<span>STORE</span></span>
+      </a>
+
+      <nav class="main-nav" id="mainNav" aria-label="Navigasi utama">
+        <a class="nav-link is-active" href="#home">Beranda</a>
+        <a class="nav-link" href="#katalog">Katalog</a>
+        <a class="nav-link" href="#cara-topup">Cara Top Up</a>
+        <a class="nav-link" href="#faq">FAQ</a>
+        <button class="nav-link nav-check-mobile" type="button" data-open-check>Cek Pesanan</button>
+      </nav>
+
+      <div class="header-actions">
+        <button class="btn btn-ghost btn-sm header-check" type="button" data-open-check>
+          <svg class="icon" aria-hidden="true"><use href="#icon-receipt"></use></svg>
+          <span>Cek Pesanan</span>
+        </button>
+        <a class="btn btn-primary btn-sm header-topup" href="#katalog">
+          Top Up
+          <svg class="icon" aria-hidden="true"><use href="#icon-arrow-up-right"></use></svg>
+        </a>
+        <button class="nav-toggle" id="navToggle" type="button" aria-label="Buka menu" aria-expanded="false" aria-controls="mainNav">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="home">
+      <div class="hero-grid-bg" aria-hidden="true"></div>
+      <div class="hero-glow hero-glow--one" aria-hidden="true"></div>
+      <div class="hero-glow hero-glow--two" aria-hidden="true"></div>
+
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <div class="hero-kicker reveal">
+            <span class="live-dot"></span>
+            <span>Dipercaya <strong>1,2 juta+</strong> gamers Indonesia</span>
+          </div>
+          <h1 class="hero-title reveal">Top up game,<br><span class="text-gradient">secepat kilat.</span></h1>
+          <p class="hero-description reveal">Diamond, UC, VP, sampai Genesis Crystal favoritmu — isi dalam hitungan detik. Harga jujur, proses otomatis, dan siap main 24/7.</p>
+          <div class="hero-actions reveal">
+            <a class="btn btn-primary btn-lg" href="#katalog">
+              Top Up Sekarang
+              <span class="btn-icon-wrap"><svg class="icon" aria-hidden="true"><use href="#icon-arrow-right"></use></svg></span>
+            </a>
+            <button class="btn btn-outline btn-lg" type="button" data-open-check>
+              <svg class="icon" aria-hidden="true"><use href="#icon-receipt"></use></svg>
+              Lacak Pesanan
+            </button>
+          </div>
+          <div class="hero-social-proof reveal">
+            <div class="avatar-stack" aria-hidden="true">
+              <span class="avatar avatar--one">RA</span>
+              <span class="avatar avatar--two">NF</span>
+              <span class="avatar avatar--three">DP</span>
+              <span class="avatar avatar--four">+1k</span>
+            </div>
+            <div class="rating-block">
+              <div class="stars" aria-label="Rating 4,9 dari 5">
+                <svg class="icon" aria-hidden="true"><use href="#icon-star"></use></svg>
+                <svg class="icon" aria-hidden="true"><use href="#icon-star"></use></svg>
+                <svg class="icon" aria-hidden="true"><use href="#icon-star"></use></svg>
+                <svg class="icon" aria-hidden="true"><use href="#icon-star"></use></svg>
+                <svg class="icon" aria-hidden="true"><use href="#icon-star"></use></svg>
+                <strong>4.9/5</strong>
+              </div>
+              <span>dari 12.400+ ulasan gamer</span>
+            </div>
+            <span class="proof-divider" aria-hidden="true"></span>
+            <div class="proof-instant">
+              <strong>&lt; 10 detik</strong>
+              <span>proses otomatis</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal" aria-hidden="true">
+          <div class="stage-orbit stage-orbit--outer"></div>
+          <div class="stage-orbit stage-orbit--inner"></div>
+          <span class="stage-spark stage-spark--one"></span>
+          <span class="stage-spark stage-spark--two"></span>
+          <span class="stage-spark stage-spark--three"></span>
+
+          <div class="hero-poster hero-poster--side hero-poster--left">
+            <img src="assets/covers/honkai-star-rail.svg" alt="">
+          </div>
+          <div class="hero-poster hero-poster--side hero-poster--right">
+            <img src="assets/covers/valorant.svg" alt="">
+          </div>
+          <div class="hero-poster hero-poster--main">
+            <img src="assets/covers/mobile-legends.svg" alt="">
+            <div class="poster-shine"></div>
+            <span class="poster-badge"><span></span> Top up instan</span>
+          </div>
+
+          <div class="floating-pill floating-pill--speed">
+            <span class="floating-icon"><svg class="icon"><use href="#icon-bolt"></use></svg></span>
+            <span><strong>Proses kilat</strong><small>Rata-rata 8 detik</small></span>
+          </div>
+          <div class="floating-pill floating-pill--secure">
+            <span class="floating-icon"><svg class="icon"><use href="#icon-shield"></use></svg></span>
+            <span><strong>100% aman</strong><small>Data terenkripsi</small></span>
+          </div>
+          <div class="mini-order">
+            <span class="mini-order-icon"><svg class="icon"><use href="#icon-check"></use></svg></span>
+            <span><small>Order #KL7X2A</small><strong>172 Diamond berhasil masuk</strong></span>
+            <span class="mini-order-dot"></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="trust-grid reveal">
+          <div class="trust-item">
+            <span class="trust-icon"><svg class="icon" aria-hidden="true"><use href="#icon-bolt"></use></svg></span>
+            <div><strong>Proses instan</strong><span>Otomatis 24/7</span></div>
+          </div>
+          <div class="trust-item">
+            <span class="trust-icon"><svg class="icon" aria-hidden="true"><use href="#icon-shield"></use></svg></span>
+            <div><strong>Aman &amp; terpercaya</strong><span>Transaksi terenkripsi</span></div>
+          </div>
+          <div class="trust-item">
+            <span class="trust-icon"><svg class="icon" aria-hidden="true"><use href="#icon-wallet"></use></svg></span>
+            <div><strong>Harga terbaik</strong><span>Tanpa biaya tersembunyi</span></div>
+          </div>
+          <div class="trust-item">
+            <span class="trust-icon"><svg class="icon" aria-hidden="true"><use href="#icon-headset"></use></svg></span>
+            <div><strong>CS siap bantu</strong><span>Setiap hari, 24 jam</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section catalog-section" id="katalog">
+      <div class="container">
+        <div class="section-head section-head--split">
+          <div class="section-heading">
+            <span class="eyebrow"><span class="eyebrow-line"></span>Katalog game</span>
+            <h2>Mau top up apa <span class="text-muted">hari ini?</span></h2>
+          </div>
+          <label class="search-box" for="gameSearch">
+            <svg class="icon" aria-hidden="true"><use href="#icon-search"></use></svg>
+            <input id="gameSearch" type="search" placeholder="Cari game favoritmu..." autocomplete="off">
+            <kbd>/</kbd>
+          </label>
+        </div>
+
+        <div class="catalog-toolbar">
+          <div class="filter-chips" role="group" aria-label="Filter kategori game">
+            <button class="filter-chip is-active" type="button" data-category="Semua" aria-pressed="true">Semua</button>
+            <button class="filter-chip" type="button" data-category="MOBA" aria-pressed="false">MOBA</button>
+            <button class="filter-chip" type="button" data-category="Battle Royale" aria-pressed="false">Battle Royale</button>
+            <button class="filter-chip" type="button" data-category="FPS" aria-pressed="false">FPS</button>
+            <button class="filter-chip" type="button" data-category="RPG" aria-pressed="false">RPG</button>
+            <button class="filter-chip" type="button" data-category="Sandbox" aria-pressed="false">Sandbox</button>
+          </div>
+          <span class="result-count" id="resultCount">Menampilkan 8 game</span>
+        </div>
+
+        <div class="game-grid" id="gameGrid"></div>
+
+        <div class="empty-state" id="emptyState" hidden>
+          <span class="empty-icon"><svg class="icon" aria-hidden="true"><use href="#icon-search"></use></svg></span>
+          <h3>Game-nya belum ketemu</h3>
+          <p>Coba kata kunci lain atau lihat semua game yang tersedia.</p>
+          <button class="btn btn-outline btn-sm" type="button" id="resetFilters">Reset pencarian</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--tight" aria-labelledby="promoTitle">
+      <div class="container">
+        <div class="promo-banner">
+          <div class="promo-pattern" aria-hidden="true"></div>
+          <div class="promo-copy">
+            <span class="eyebrow eyebrow--dark"><span class="eyebrow-line"></span>Voucher spesial</span>
+            <h2 id="promoTitle">Top up makin hemat.<br><span>Diskon 10%</span> buat kamu.</h2>
+            <p>Berlaku untuk semua game. Maksimal potongan Rp20.000 per transaksi.</p>
+            <div class="promo-actions">
+              <button class="btn btn-dark" type="button" data-copy-code="KILAT10" data-copy-label="Salin kode">
+                <span class="promo-code-inline">KILAT10</span>
+                <svg class="icon" aria-hidden="true"><use href="#icon-copy"></use></svg>
+              </button>
+              <span class="promo-timer">Berakhir dalam <strong id="promoCountdown">--:--:--</strong></span>
+            </div>
+          </div>
+          <div class="promo-art" aria-hidden="true">
+            <div class="promo-ring"></div>
+            <div class="promo-gem">
+              <svg class="icon"><use href="#icon-diamond"></use></svg>
+            </div>
+            <span class="promo-float promo-float--one">10%</span>
+            <span class="promo-float promo-float--two">HEMAT</span>
+            <span class="promo-float promo-float--three">+</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section steps-section" id="cara-topup">
+      <div class="container">
+        <div class="section-head section-head--center">
+          <span class="eyebrow"><span class="eyebrow-line"></span>Cara top up<span class="eyebrow-line"></span></span>
+          <h2>Tiga langkah, langsung <span class="text-gradient">push rank.</span></h2>
+          <p>Tidak perlu daftar akun. Tidak perlu nunggu lama. Sesimpel itu.</p>
+        </div>
+
+        <div class="steps-grid">
+          <article class="step-card reveal">
+            <span class="step-number">01</span>
+            <span class="step-icon"><svg class="icon" aria-hidden="true"><use href="#icon-gamepad"></use></svg></span>
+            <h3>Pilih game &amp; nominal</h3>
+            <p>Temukan game favoritmu dan pilih jumlah diamond, UC, atau VP yang kamu butuhkan.</p>
+            <span class="step-line" aria-hidden="true"></span>
+          </article>
+          <article class="step-card reveal">
+            <span class="step-number">02</span>
+            <span class="step-icon"><svg class="icon" aria-hidden="true"><use href="#icon-user"></use></svg></span>
+            <h3>Isi data akun</h3>
+            <p>Masukkan User ID atau username dengan benar. Tanpa perlu password, aman.</p>
+            <span class="step-line" aria-hidden="true"></span>
+          </article>
+          <article class="step-card reveal">
+            <span class="step-number">03</span>
+            <span class="step-icon"><svg class="icon" aria-hidden="true"><use href="#icon-bolt"></use></svg></span>
+            <h3>Bayar &amp; langsung masuk</h3>
+            <p>Selesaikan pembayaran, lalu item langsung masuk ke akunmu secara otomatis.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section payment-section" aria-labelledby="paymentTitle">
+      <div class="container payment-layout">
+        <div class="payment-copy reveal">
+          <span class="eyebrow"><span class="eyebrow-line"></span>Pembayaran fleksibel</span>
+          <h2 id="paymentTitle">Bayar pakai cara <span class="text-muted">favoritmu.</span></h2>
+          <p>QRIS, e-wallet, virtual account, sampai minimarket. Semua pilihan, satu tujuan: top up tanpa ribet.</p>
+          <div class="secure-note">
+            <span><svg class="icon" aria-hidden="true"><use href="#icon-lock"></use></svg></span>
+            <div><strong>Transaksi terlindungi</strong><p>Data pembayaran diproses dengan enkripsi standar industri.</p></div>
+          </div>
+        </div>
+        <div class="payment-logos reveal" aria-label="Metode pembayaran yang tersedia">
+          <div class="pay-tile"><span class="pay-brand pay-brand--qris">QRIS</span><small>Semua e-wallet</small></div>
+          <div class="pay-tile"><span class="pay-brand pay-brand--dana">DANA</span><small>E-wallet</small></div>
+          <div class="pay-tile"><span class="pay-brand pay-brand--gopay">gopay</span><small>E-wallet</small></div>
+          <div class="pay-tile"><span class="pay-brand pay-brand--ovo">OVO</span><small>E-wallet</small></div>
+          <div class="pay-tile"><span class="pay-brand pay-brand--shopeepay">ShopeePay</span><small>E-wallet</small></div>
+          <div class="pay-tile"><span class="pay-brand pay-brand--bca">BCA</span><small>Virtual Account</small></div>
+          <div class="pay-tile"><span class="pay-brand pay-brand--bni">BNI</span><small>Virtual Account</small></div>
+          <div class="pay-tile"><span class="pay-brand pay-brand--alfamart">Alfamart</span><small>Minimarket</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section reviews-section" aria-labelledby="reviewsTitle">
+      <div class="container">
+        <div class="section-head section-head--split">
+          <div class="section-heading">
+            <span class="eyebrow"><span class="eyebrow-line"></span>Kata para gamer</span>
+            <h2 id="reviewsTitle">Sudah dicoba, <span class="text-muted">sudah terbukti.</span></h2>
+          </div>
+          <div class="review-summary">
+            <div class="stars" aria-label="Rating 4,9 dari 5">
+              <svg class="icon" aria-hidden="true"><use href="#icon-star"></use></svg>
+              <svg class="icon" aria-hidden="true"><use href="#icon-star"></use></svg>
+              <svg class="icon" aria-hidden="true"><use href="#icon-star"></use></svg>
+              <svg class="icon" aria-hidden="true"><use href="#icon-star"></use></svg>
+              <svg class="icon" aria-hidden="true"><use href="#icon-star"></use></svg>
+            </div>
+            <p><strong>4,9</strong> dari 5 · 12.400+ ulasan</p>
+          </div>
+        </div>
+
+        <div class="reviews-grid">
+          <article class="review-card reveal">
+            <div class="review-top">
+              <span class="review-avatar review-avatar--one">RA</span>
+              <div><strong>Rafi Aditya</strong><span>Mobile Legends · 2 hari lalu</span></div>
+              <span class="verified-badge"><svg class="icon" aria-hidden="true"><use href="#icon-check"></use></svg></span>
+            </div>
+            <div class="stars stars--sm" aria-label="5 dari 5 bintang">
+              <svg class="icon"><use href="#icon-star"></use></svg><svg class="icon"><use href="#icon-star"></use></svg><svg class="icon"><use href="#icon-star"></use></svg><svg class="icon"><use href="#icon-star"></use></svg><svg class="icon"><use href="#icon-star"></use></svg>
+            </div>
+            <p class="review-quote">“Baru bayar pakai QRIS, belum sempat balik ke game diamond-nya udah masuk. Harga bersaing dan nggak pakai drama.”</p>
+            <div class="review-product">
+              <img src="assets/covers/mobile-legends.svg" alt="">
+              <span><small>Pembelian terverifikasi</small><strong>172 Diamond</strong></span>
+            </div>
+          </article>
+
+          <article class="review-card reveal">
+            <div class="review-top">
+              <span class="review-avatar review-avatar--two">NF</span>
+              <div><strong>Nadia Fitri</strong><span>Genshin Impact · 4 hari lalu</span></div>
+              <span class="verified-badge"><svg class="icon" aria-hidden="true"><use href="#icon-check"></use></svg></span>
+            </div>
+            <div class="stars stars--sm" aria-label="5 dari 5 bintang">
+              <svg class="icon"><use href="#icon-star"></use></svg><svg class="icon"><use href="#icon-star"></use></svg><svg class="icon"><use href="#icon-star"></use></svg><svg class="icon"><use href="#icon-star"></use></svg><svg class="icon"><use href="#icon-star"></use></svg>
+            </div>
+            <p class="review-quote">“Awalnya agak ragu karena baru pertama kali. Ternyata prosesnya jelas, ada invoice, dan crystalnya masuk sesuai jumlah. Mantap!”</p>
+            <div class="review-product">
+              <img src="assets/covers/genshin-impact.svg" alt="">
+              <span><small>Pembelian terverifikasi</small><strong>980 Genesis Crystals</strong></span>
+            </div>
+          </article>
+
+          <article class="review-card reveal">
+            <div class="review-top">
+              <span class="review-avatar review-avatar--three">DP</span>
+              <div><strong>Dimas Pratama</strong><span>Valorant · 1 minggu lalu</span></div>
+              <span class="verified-badge"><svg class="icon" aria-hidden="true"><use href="#icon-check"></use></svg></span>
+            </div>
+            <div class="stars stars--sm" aria-label="5 dari 5 bintang">
+              <svg class="icon"><use href="#icon-star"></use></svg><svg class="icon"><use href="#icon-star"></use></svg><svg class="icon"><use href="#icon-star"></use></svg><svg class="icon"><use href="#icon-star"></use></svg><svg class="icon"><use href="#icon-star"></use></svg>
+            </div>
+            <p class="review-quote">“Top up VP jam 2 pagi tetap diproses. Pas ada kendala, CS-nya cepat balas dan langsung dibantu sampai beres.”</p>
+            <div class="review-product">
+              <img src="assets/covers/valorant.svg" alt="">
+              <span><small>Pembelian terverifikasi</small><strong>1.375 Valorant Points</strong></span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section faq-section" id="faq">
+      <div class="container faq-layout">
+        <div class="faq-intro reveal">
+          <span class="eyebrow"><span class="eyebrow-line"></span>Pusat bantuan</span>
+          <h2>Masih ada <span class="text-muted">pertanyaan?</span></h2>
+          <p>Kami kumpulkan jawaban untuk hal-hal yang paling sering ditanyakan. Kalau belum ketemu, tim CS kami siap bantu.</p>
+          <div class="support-card">
+            <span class="support-avatar"><svg class="icon" aria-hidden="true"><use href="#icon-headset"></use></svg></span>
+            <div><strong>Butuh bantuan lain?</strong><span>Rata-rata balas dalam 2 menit</span></div>
+            <a class="support-link" href="mailto:halo@yudstore">Hubungi CS <svg class="icon" aria-hidden="true"><use href="#icon-arrow-up-right"></use></svg></a>
+          </div>
+        </div>
+
+        <div class="faq-list reveal">
+          <details class="faq-item" open>
+            <summary><span>Berapa lama proses top up di YUDSTORE?</span><span class="faq-icon"><svg class="icon" aria-hidden="true"><use href="#icon-chevron-down"></use></svg></span></summary>
+            <div class="faq-answer"><p>Sebagian besar pesanan diproses otomatis dalam waktu kurang dari 10 detik setelah pembayaran terkonfirmasi. Pada kondisi tertentu, seperti gangguan server game atau maintenance, proses bisa memakan waktu hingga 1×24 jam.</p></div>
+          </details>
+          <details class="faq-item">
+            <summary><span>Apakah saya perlu memberikan password akun?</span><span class="faq-icon"><svg class="icon" aria-hidden="true"><use href="#icon-chevron-down"></use></svg></span></summary>
+            <div class="faq-answer"><p>Tidak. Kami hanya membutuhkan User ID, username, atau data publik lain yang diperlukan untuk mengirim item. Jangan pernah memberikan password atau kode OTP kepada siapa pun, termasuk pihak yang mengaku sebagai CS.</p></div>
+          </details>
+          <details class="faq-item">
+            <summary><span>Metode pembayaran apa saja yang tersedia?</span><span class="faq-icon"><svg class="icon" aria-hidden="true"><use href="#icon-chevron-down"></use></svg></span></summary>
+            <div class="faq-answer"><p>Kami menerima QRIS, DANA, GoPay, OVO, ShopeePay, Virtual Account BCA dan BNI, serta pembayaran tunai di Alfamart. Pilihan pembayaran lengkap akan muncul saat kamu melanjutkan pesanan.</p></div>
+          </details>
+          <details class="faq-item">
+            <summary><span>Bagaimana kalau item belum masuk?</span><span class="faq-icon"><svg class="icon" aria-hidden="true"><use href="#icon-chevron-down"></use></svg></span></summary>
+            <div class="faq-answer"><p>Cek dulu ID pesananmu lewat menu <strong>Cek Pesanan</strong>. Jika status sudah berhasil tetapi item belum terlihat, coba login ulang ke game. Masih belum ada? Hubungi CS dengan menyertakan ID pesanan dan tangkapan layar.</p></div>
+          </details>
+          <details class="faq-item">
+            <summary><span>Apakah data akun saya aman?</span><span class="faq-icon"><svg class="icon" aria-hidden="true"><use href="#icon-chevron-down"></use></svg></span></summary>
+            <div class="faq-answer"><p>Ya. Kami hanya menyimpan data yang diperlukan untuk memproses pesanan. Website ini adalah prototipe, sehingga seluruh transaksi, status pembayaran, dan data pesanan disimpan secara lokal di browser perangkatmu.</p></div>
+          </details>
+          <details class="faq-item">
+            <summary><span>Bisakah saya membatalkan pesanan?</span><span class="faq-icon"><svg class="icon" aria-hidden="true"><use href="#icon-chevron-down"></use></svg></span></summary>
+            <div class="faq-answer"><p>Pesanan yang belum dibayar akan kedaluwarsa otomatis setelah 15 menit. Untuk pesanan yang sudah dibayar, pembatalan tidak dapat dilakukan karena item biasanya sudah diproses ke akun tujuan.</p></div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="section cta-section">
+      <div class="container">
+        <div class="cta-panel reveal">
+          <div class="cta-grid" aria-hidden="true"></div>
+          <div class="cta-orb" aria-hidden="true"></div>
+          <span class="eyebrow eyebrow--light"><span class="eyebrow-line"></span>Siap main?</span>
+          <h2>Level up tanpa <span class="text-gradient">nunggu lama.</span></h2>
+          <p>Pilih game, isi nominal, bayar. Item masuk, kamu lanjut main.</p>
+          <a class="btn btn-primary btn-lg" href="#katalog">
+            Pilih Game Sekarang
+            <span class="btn-icon-wrap"><svg class="icon" aria-hidden="true"><use href="#icon-arrow-right"></use></svg></span>
+          </a>
+          <div class="cta-badges">
+            <span><svg class="icon" aria-hidden="true"><use href="#icon-check"></use></svg> Tanpa daftar</span>
+            <span><svg class="icon" aria-hidden="true"><use href="#icon-check"></use></svg> Proses otomatis</span>
+            <span><svg class="icon" aria-hidden="true"><use href="#icon-check"></use></svg> Buka 24/7</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-main">
+        <div class="footer-brand">
+          <a class="brand" href="#home" aria-label="YUDSTORE">
+            <span class="brand-mark"><svg class="icon" aria-hidden="true"><use href="#icon-bolt"></use></svg></span>
+            <span class="brand-word">YUD<span>STORE</span></span>
+          </a>
+          <p>Top up game favoritmu, secepat kilat. Harga jujur, proses otomatis, dan siap menemani setiap push rank-mu.</p>
+          <div class="footer-socials" aria-label="Media sosial YUDSTORE">
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><svg class="icon" aria-hidden="true"><use href="#icon-instagram"></use></svg></a>
+            <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><svg class="icon" aria-hidden="true"><use href="#icon-tiktok"></use></svg></a>
+            <a href="https://discord.com" target="_blank" rel="noopener noreferrer" aria-label="Discord"><svg class="icon" aria-hidden="true"><use href="#icon-discord"></use></svg></a>
+          </div>
+        </div>
+        <div class="footer-column">
+          <h3>Jelajahi</h3>
+          <a href="#home">Beranda</a>
+          <a href="#katalog">Katalog game</a>
+          <a href="#cara-topup">Cara top up</a>
+          <a href="#faq">Pusat bantuan</a>
+        </div>
+        <div class="footer-column">
+          <h3>Game populer</h3>
+          <button type="button" data-footer-game="mobile-legends">Mobile Legends</button>
+          <button type="button" data-footer-game="free-fire">Free Fire</button>
+          <button type="button" data-footer-game="valorant">Valorant</button>
+          <button type="button" data-footer-game="genshin-impact">Genshin Impact</button>
+        </div>
+        <div class="footer-column footer-column--info">
+          <h3>Butuh bantuan?</h3>
+          <a href="mailto:halo@yudstore">halo@yudstore</a>
+          <span>Setiap hari · 24 jam</span>
+          <button class="btn btn-outline btn-sm footer-check" type="button" data-open-check>
+            <svg class="icon" aria-hidden="true"><use href="#icon-receipt"></use></svg>
+            Cek Pesanan
+          </button>
+        </div>
+      </div>
+
+      <div class="footer-payments">
+        <span>Pembayaran tersedia</span>
+        <div>
+          <span class="footer-pay footer-pay--qris">QRIS</span>
+          <span class="footer-pay footer-pay--dana">DANA</span>
+          <span class="footer-pay footer-pay--gopay">gopay</span>
+          <span class="footer-pay footer-pay--ovo">OVO</span>
+          <span class="footer-pay footer-pay--bca">BCA</span>
+          <span class="footer-pay footer-pay--bni">BNI</span>
+          <span class="footer-pay footer-pay--alfamart">Alfamart</span>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© <span id="currentYear">2026</span> YUDSTORE. Dibuat untuk para gamer. Prototipe demo.</p>
+        <div>
+          <a href="#faq">Kebijakan Privasi</a>
+          <a href="#faq">Syarat &amp; Ketentuan</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <dialog class="modal" id="orderDialog" aria-labelledby="orderDialogTitle">
+    <div class="modal-shell modal-shell--order">
+      <button class="modal-close" type="button" data-close-dialog aria-label="Tutup">
+        <svg class="icon" aria-hidden="true"><use href="#icon-close"></use></svg>
+      </button>
+      <div class="modal-content" id="orderContent">
+        <h2 id="orderDialogTitle" class="sr-only">Pesanan top up</h2>
+      </div>
+    </div>
+  </dialog>
+
+  <dialog class="modal" id="checkDialog" aria-labelledby="checkDialogTitle">
+    <div class="modal-shell modal-shell--check">
+      <button class="modal-close" type="button" data-close-dialog aria-label="Tutup">
+        <svg class="icon" aria-hidden="true"><use href="#icon-close"></use></svg>
+      </button>
+      <div class="check-header">
+        <span class="modal-icon"><svg class="icon" aria-hidden="true"><use href="#icon-receipt"></use></svg></span>
+        <span class="eyebrow">Lacak transaksi</span>
+        <h2 id="checkDialogTitle">Cek pesanan</h2>
+        <p>Masukkan ID pesanan untuk melihat status top up-mu.</p>
+      </div>
+      <form class="check-form" id="checkForm" novalidate>
+        <label class="input-shell">
+          <span class="sr-only">ID pesanan</span>
+          <svg class="icon" aria-hidden="true"><use href="#icon-receipt"></use></svg>
+          <input id="orderIdInput" type="text" placeholder="Contoh: KLT-20261116-AB12" autocomplete="off" spellcheck="false">
+        </label>
+        <button class="btn btn-primary" type="submit">Cek Pesanan</button>
+      </form>
+      <div class="check-feedback" id="checkFeedback" role="status" aria-live="polite"></div>
+      <div class="recent-orders" id="recentOrders"></div>
+    </div>
+  </dialog>
+
+  <div class="toast-region" id="toastRegion" aria-live="polite" aria-atomic="true"></div>
+
+  <svg class="svg-sprite" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <symbol id="icon-bolt" viewBox="0 0 24 24"><path d="M13.2 2 4.5 13.2h5.7L9.4 22l9.1-12h-5.9L13.2 2Z" fill="currentColor"/></symbol>
+    <symbol id="icon-arrow-right" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="icon-arrow-up-right" viewBox="0 0 24 24"><path d="M7 17 17 7M8 7h9v9" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="icon-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="m16.5 16.5 4 4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+    <symbol id="icon-receipt" viewBox="0 0 24 24"><path d="M5 3h14v18l-3-2-2 2-2-2-2 2-2-2-3 2V3Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M8.5 8h7M8.5 12h7M8.5 16h4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+    <symbol id="icon-shield" viewBox="0 0 24 24"><path d="M12 3 20 6v6c0 5-3.4 8-8 9.5C7.4 20 4 17 4 12V6l8-3Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="m8.5 12 2.4 2.4 4.7-5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="icon-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12 7v5l3 2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+    <symbol id="icon-headset" viewBox="0 0 24 24"><path d="M4 14v-2a8 8 0 0 1 16 0v2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="M4 13h3v6H5a2 2 0 0 1-2-2v-2a2 2 0 0 1 1-2ZM20 13h-3v6h2a2 2 0 0 0 2-2v-2a2 2 0 0 0-1-2Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M17 19c0 1.5-1.5 2-4 2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+    <symbol id="icon-chevron-down" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="icon-chevron-left" viewBox="0 0 24 24"><path d="m15 18-6-6 6-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="icon-close" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+    <symbol id="icon-check" viewBox="0 0 24 24"><path d="m5 12.5 4.2 4.2L19 6.5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="icon-copy" viewBox="0 0 24 24"><rect x="8" y="8" width="11" height="12" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h2" fill="none" stroke="currentColor" stroke-width="1.8"/></symbol>
+    <symbol id="icon-star" viewBox="0 0 24 24"><path d="m12 2.8 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2-5.6-3-5.6 3 1.1-6.2L3 9.4l6.2-.9L12 2.8Z" fill="currentColor"/></symbol>
+    <symbol id="icon-diamond" viewBox="0 0 24 24"><path d="m3 9 4-5h10l4 5-9 12L3 9Z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><path d="M3 9h18M8 4l4 17 4-17" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/></symbol>
+    <symbol id="icon-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+    <symbol id="icon-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M4.5 21c.5-4 3.3-6 7.5-6s7 2 7.5 6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+    <symbol id="icon-lock" viewBox="0 0 24 24"><rect x="4" y="10" width="16" height="11" rx="2.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M8 10V7a4 4 0 0 1 8 0v3M12 14v3" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+    <symbol id="icon-wallet" viewBox="0 0 24 24"><path d="M4 6h14a2 2 0 0 1 2 2v11H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h12" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M15 12h6v4h-6a2 2 0 0 1 0-4Z" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="16.5" cy="14" r=".8" fill="currentColor"/></symbol>
+    <symbol id="icon-qr" viewBox="0 0 24 24"><path d="M4 4h6v6H4V4ZM14 4h6v6h-6V4ZM4 14h6v6H4v-6Z" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M14 14h2v2h-2zM18 14h2v2h-2zM16 16h2v2h-2zM14 18h2v2h-2zM18 18h2v2h-2z" fill="currentColor"/></symbol>
+    <symbol id="icon-bank" viewBox="0 0 24 24"><path d="m3 9 9-5 9 5H3ZM5 9v8M10 9v8M14 9v8M19 9v8M3 20h18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="icon-store" viewBox="0 0 24 24"><path d="M4 10v10h16V10M3 10l2-6h14l2 6H3Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M9 20v-5h6v5" fill="none" stroke="currentColor" stroke-width="1.8"/></symbol>
+    <symbol id="icon-gamepad" viewBox="0 0 24 24"><path d="M7.5 7h9c3 0 4.5 2.4 3.9 5.6l-.8 4.1c-.5 2.4-2.7 3.3-4.4 1.6L13.5 17h-3l-1.7 1.3c-1.7 1.7-3.9.8-4.4-1.6l-.8-4.1C3 9.4 4.5 7 7.5 7Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M8 10v4M6 12h4M16 11h.1M18 13h.1" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+    <symbol id="icon-spark" viewBox="0 0 24 24"><path d="M12 2c.5 6.5 3.5 9.5 10 10-6.5.5-9.5 3.5-10 10-.5-6.5-3.5-9.5-10-10 6.5-.5 9.5-3.5 10-10Z" fill="currentColor"/></symbol>
+    <symbol id="icon-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12 11v6M12 7.5v.2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+    <symbol id="icon-instagram" viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="17" height="17" rx="5" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="17.3" cy="6.8" r="1" fill="currentColor"/></symbol>
+    <symbol id="icon-tiktok" viewBox="0 0 24 24"><path d="M15 3c.3 2.2 1.7 3.7 4 4v3c-1.7 0-3.1-.5-4-1.3v6.7a5.4 5.4 0 1 1-5.4-5.4c.4 0 .8 0 1.2.1v3a2.5 2.5 0 1 0 1.7 2.3V3H15Z" fill="currentColor"/></symbol>
+    <symbol id="icon-discord" viewBox="0 0 24 24"><path d="M18.7 5.3A16 16 0 0 0 14.8 4l-.5 1a14 14 0 0 0-4.6 0L9.2 4a16 16 0 0 0-3.9 1.3C2.8 9 2.1 12.6 2.5 16.2A16 16 0 0 0 7.3 20l1-1.4a10 10 0 0 1-1.6-.8l.4-.3a11.5 11.5 0 0 0 9.8 0l.4.3a12 12 0 0 1-1.6.8l1 1.4a16 16 0 0 0 4.8-3.8c.5-4-.7-7.6-2.8-10.9ZM8.7 14.2c-1 0-1.8-.9-1.8-2s.8-2 1.8-2 1.8.9 1.8 2-.8 2-1.8 2Zm6.6 0c-1 0-1.8-.9-1.8-2s.8-2 1.8-2 1.8.9 1.8 2-.8 2-1.8 2Z" fill="currentColor"/></symbol>
+  </svg>
+</body>
+</html>
